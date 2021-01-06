@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Metros para Centimetros</title>
+</head>
+<body>
+    <input type="number" id="metros"> 
+    <input type="button" value="Converter" id="btnConverter" onclick="converter()">
+
+    <div id="res"></div>
+
+    <script>
+        function converter() {
+            var metros = document.getElementById("metros").value
+            var centimetros = metros *100;
+            var resultado = document.getElementById("res")
+
+            resultado.innerHTML = `${metros} metros é igual a ${centimetros} centimetros`
+
+            
+            
+            
+        }
+
+    </script>
+</body>
+</html>
