@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #e67e22; 
+    color: azure;
+}
+.app div {
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #34495e ;
+    color: azure;
+    position: relative;
+    top: 25px;
+}
+input {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}

@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Conversor de Metros para Centimetros</title>
 </head>
 <body>
-    <input type="number" id="metros"> 
-    <input type="button" value="Converter" id="btnConverter" onclick="converter()">
-
-    <div id="res"></div>
-
+    <div class="app">
+        <h3>Digite um valor em Centimetros</h3>
+        <input type="number" id="metros"> 
+        <input type="button" value="Converter" id="btnConverter" onclick="converter()">
+        <div id="res"></div>
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
